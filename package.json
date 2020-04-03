@@ -1,0 +1,20 @@
+{
+  "name": "vox-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/inacioMattos/vox-server.git",
+  "author": "Inácio Mattos <inaciotm@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "@feathersjs/express": "^4.5.2",
+    "@feathersjs/feathers": "^4.5.2",
+    "@feathersjs/socketio": "^4.5.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
